@@ -1,60 +1,58 @@
 <p align="center">
-  <img src="https://www.google.com/s2/favicons?sz=64&domain=skribbl.io" height="29" />
+  <img src="assets/skribbl-banner.png" alt="Skribbl Autoguesser" width="800">
 </p>
+
 <p align="center">
-  <i>A userscript to enhance your Skribbl.io gameplay by auto-suggesting words.<br/>Try it out on <a href="https://www.skribbl.io">Skribbl.io</a>.</i>
-  <br/>
-  <img width="1640" alt="screenshot" src="https://user-images.githubusercontent.com/31465/34380645-bd67f474-eb0b-11e7-8d03-0151c1730654.png">
+  <b>Guesses <a href="https://skribbl.io">skribbl.io</a> words for you.</b><br>
+  It reads the hint and narrows down the possible words.
 </p>
+
 <p align="center">
-  <a href="https://github.com/zkisaboss/reorderedwordlist" rel="nofollow"><img src="https://img.shields.io/badge/version-1.0-blue.svg" alt="Version"></a>
-  <a href="https://github.com/zkisaboss/reorderedwordlist/issues" rel="nofollow"><img src="https://img.shields.io/github/issues/zkisaboss/reorderedwordlist" alt="Issues"></a>
-  <a href="https://github.com/zkisaboss/reorderedwordlist/pulls" rel="nofollow"><img src="https://img.shields.io/github/issues-pr/zkisaboss/reorderedwordlist" alt="Pull Requests"></a>
-  <a href="https://github.com/zkisaboss/reorderedwordlist/blob/main/LICENSE" rel="nofollow"><img src="https://img.shields.io/github/license/zkisaboss/reorderedwordlist" alt="License"></a>
+  <a href="https://github.com/zkisaboss/reorderedwordlist/issues"><img src="https://img.shields.io/github/issues/zkisaboss/reorderedwordlist" alt="Issues"></a>
+  <a href="https://github.com/zkisaboss/reorderedwordlist/pulls"><img src="https://img.shields.io/github/issues-pr/zkisaboss/reorderedwordlist" alt="Pull requests"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/github/license/zkisaboss/reorderedwordlist" alt="License"></a>
 </p>
 
-**Skribbl Autoguesser** is a userscript designed to enhance your experience on [Skribbl.io](https://www.skribbl.io/) with better filtering alrogithms and more ways to store words.
+## Install
 
-## Features
-
-- **Auto Guessing**: Generate and submit guesses based on the context of the game.
-- **Word List**: Displays words based on hints, user input, and chat messages, continuously updated with new words.
-- **Export Words**: Export new words and contribute to the wordlist to improve the script.
-- **Multi-language Support**: Available in Chinese, Hindi, Spanish, and more.
-
-## Installation
-
-1. **Install Tampermonkey**: Ensure you have the [Tampermonkey extension](https://www.tampermonkey.net/) installed in your browser.
-2. **Add the Script**:
-   - Open Tampermonkey dashboard.
-   - Create a new script and paste the code from [this repository](https://github.com/zkisaboss/reorderedwordlist).
-   - Save the script.
+1. Install a userscript manager such as [Tampermonkey](https://www.tampermonkey.net/) or [Violentmonkey](https://violentmonkey.github.io/).
+2. Install the script from [Greasy Fork](https://greasyfork.org/en/scripts/SCRIPT-ID).
+3. Open [skribbl.io](https://skribbl.io). The panel appears at the bottom of the screen.
 
 ## Usage
 
-- **Toggle Auto Guessing**: Click the "Auto Guess" button to enable or disable automatic guessing.
-- **Export New Words**: Click the "Export Answers" button to download a list of new words added to your word list.
-- **Interact with UI**: Use the floating panel to view and select word suggestions.
+<p align="center">
+  <img src="assets/skribbl-screenshot.png" alt="The Skribbl Autoguesser panel at the bottom of a skribbl.io game" width="700">
+</p>
 
-## Planned Features
+- **Auto Guess:** turn automatic guessing on or off.
+- **Remaining Guesses:** how many possible words are left.
+- **Export Answers:** save new words to a text file.
+- Press `↓` to hide the panel and `↑` to show it.
 
-- **Anti-Kick**: Auto-leave or switch lobbies before being kicked.
-- **Auto Draw (Legit)**: Humanized Auto-Drawing + community to share drawings (as files).
-- **AI Sorting**: Integrate neural network for advanced word sorting.
+## Planned features
+
+- **Auto-leave / Auto-change Lobbies:** Automatically leave or change lobbies to avoid getting kicked.
+- **Neural Net for Word Sorting:** Plans to use a neural network to improve word sorting, potentially using an open-source model from Google.
+- **Humanized Auto-draw:** Simulates human-like drawing behavior, with community support and auto-saving of other players' drawings.
+- **Randomized Auto-guess Timing:** Adds randomness to auto-guess timing for more natural behavior.
 
 ## Contributing
 
-We welcome contributions! Please create a pull request or open an issue on [GitHub](https://github.com/zkisaboss/reorderedwordlist) for improvements or bug reports. Discuss new ideas or features in the [discussions](https://github.com/zkisaboss/reorderedwordlist/discussions).
+Contributions are welcome, from new words to bug fixes.
+
+1. Click **Export Answers** to save the new words you find.
+2. Open a [pull request](https://github.com/zkisaboss/reorderedwordlist/pulls) to add them to the wordlist.
+3. Report a bug in an [issue](https://github.com/zkisaboss/reorderedwordlist/issues), or share an idea in [Discussions](https://github.com/zkisaboss/reorderedwordlist/discussions).
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+[MIT](LICENSE)
 
 ## Acknowledgements
 
-Special thanks to the [WordSleuth](https://github.com/zkisaboss/reorderedwordlist) script for its foundational work and inspiration.
+Inspired by:
 
-## Contact
-
-For support or questions, reach out via [GitHub](https://github.com/zkisaboss/reorderedwordlist).
-
+- [fermion's](https://greasyfork.org/en/users/1084087-fermion) [Wordsleuth](https://greasyfork.org/en/scripts/467016-wordsleuth)
+- [cheatsHaz'](https://greasyfork.org/en/users/1302945-cheatshaz) [Wordsleuth fork](https://greasyfork.org/en/scripts/495270-wordsleuth-fork)
+- [Hidden Facts 2010's](https://greasyfork.org/en/users/871571-hidden-facts2010) [Skribbl.io AutoGuesser](https://greasyfork.org/en/scripts/439443-skribbl-io-autoguesser)
