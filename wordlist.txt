@@ -1,3 +1,5 @@
+den
+bay
 bat
 car
 cap
@@ -182,6 +184,29 @@ emu
 ufo
 wwe
 abs
+dune
+tutu
+sumo
+tiny
+peru
+nasa
+menu
+howl
+tofu
+flop
+tipi
+ogre
+purr
+mars
+navy
+nemo
+undo
+plug
+oreo
+lead
+mule
+taco
+xbox
 bear
 case
 ball
@@ -680,6 +705,12 @@ abba
 polo
 sign
 afro
+seoul
+screw
+hydra
+quail
+crowd
+grain
 plane
 store
 clock
@@ -1259,6 +1290,11 @@ woman
 anvil
 mafia
 error
+chives
+trench
+poland
+tardis
+pliers
 health
 switch
 hearth
@@ -1819,6 +1855,16 @@ arctic
 walrus
 narnia
 alpaca
+fallout
+dungeon
+section
+diverge
+refresh
+bulldog
+ice age
+machete
+climber
+savanna
 feather
 weather
 leather
@@ -2278,6 +2324,14 @@ cologne
 evening
 dishrag
 uniform
+majority
+bachelor
+recorder
+redditor
+platform
+headbutt
+cardinal
+overpass
 scrabble
 scribble
 symmetry
@@ -2670,6 +2724,12 @@ bunk bed
 wireless
 sunshine
 aquarium
+zookeeper
+swim ring
+casserole
+extravert
+conductor
+sheep dog
 stockings
 shoulders
 asymmetry
@@ -3039,6 +3099,10 @@ squidward
 orchestra
 shipwreck
 translate
+yield sign
+dr. watson
+plexiglass
+goldilocks
 star bucks
 colorblind
 gold ingot
@@ -3269,6 +3333,10 @@ headphones
 toothpaste
 rhinoceros
 quesadilla
+philosopher
+paragliding
+minesweeper
+force field
 mr meeseeks
 gold ingots
 color-blind
@@ -3421,6 +3489,7 @@ south korea
 grim reaper
 real estate
 rollerblade
+machu picchu
 mr. meeseeks
 handkerchief
 black friday
